@@ -35,10 +35,8 @@ What this means for buyers: every dollar raised goes directly into liquidity. Th
 
 ## Entry Point
 
-The presale FDV is $50,000.
+The presale FDV is only $50,000.
 
-For context: Tempo Chain raised $500,000,000 at a $5,000,000,000 valuation. Its ecosystem partners include Anthropic, OpenAI, Visa, and Mastercard. The chain was built by the team behind Stripe.
-
-TROUTE is the routing layer for AI agent payments on that chain. The presale FDV is $50,000.
+TROUTE is the first autonomous payment routing layer on Tempo Chain. This entry point will never exist again after launch.
 
 The math speaks for itself.
