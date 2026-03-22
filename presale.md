@@ -8,8 +8,8 @@ TROUTE is launching via a fully public fair launch presale on Tempo Chain.
 |---|---|
 | Token | $TROUTE |
 | Price | $0.0001 per token |
-| Presale Supply | 300,000,000 $TROUTE |
-| Hard Cap | $30,000 USDC.e |
+| Presale Supply | 500,000,000 $TROUTE |
+| Hard Cap | $50,000 USDC.e |
 | Minimum Purchase | $0.50 USDC.e |
 | Accepted | USDC.e |
 | Network | Tempo Chain |
@@ -19,7 +19,7 @@ TROUTE is launching via a fully public fair launch presale on Tempo Chain.
 
 ## Fair Launch Structure
 
-300,000,000 $TROUTE are available in the presale. The USDC.e raised from the presale is used to seed the liquidity pool on Tempo's native DEX at TGE.
+500,000,000 $TROUTE are available in the presale. The USDC.e raised from the presale is used to seed the liquidity pool on Tempo's native DEX at TGE.
 
 There are no tokens held back. There are no unlock events after launch. There are no vesting schedules for insiders because there are no insiders.
 
