@@ -11,29 +11,27 @@ TROUTE handles everything from that point forward.
 ```mermaid
 flowchart TD
     A["🤖 AI Agent"] -->|"Payment Instruction<br/>destination · amount · asset · params"| B["TROUTE Routing Contract"]
-    B -->|Validate| C["Policy Registry — Tempo Chain<br/>on-chain compliance check · milliseconds"]
-
-    C -->|"❌ REJECTED"| R["Revert + Error"]
-    R -.->|"Error returned"| A
-
-    C -->|"✅ PASSED"| D["Routing Engine — MPP"]
-    D -->|"Path Selection<br/>destination · asset type · network conditions · fee optimization"| E["Optimal Route Selected"]
-    E --> F["Settlement — Tempo Chain<br/>Instant Finality · Sub-$0.001 gas · Stablecoin"]
-    F --> G["Settlement Confirmation"]
-
-    G -->|"Fee captured"| S["$TROUTE Stakers"]
-    G -->|"Confirmation"| A2["AI Agent Continues Workflow<br/>no interruption · milliseconds total"]
+    B -->|Validate| C["Policy Registry<br/>Tempo Chain<br/>on-chain compliance · milliseconds"]
+    C -->|"❌ REJECTED"| D["Revert + Error"]
+    D -.->|"Error returned"| A
+    C -->|"✅ PASSED"| E["Routing Engine / MPP"]
+    E -->|"Path Selection<br/>destination · asset type · network conditions · fee optimization"| F["Optimal Route Selected"]
+    F --> G["Settlement / Tempo Chain<br/>Instant Finality · Sub-$0.001 gas · Stablecoin"]
+    G --> H["Settlement Confirmation"]
+    H -->|"Fee captured"| I["$TROUTE Stakers"]
+    H -->|"Confirmation"| J["AI Agent Continues Workflow<br/>no interruption · milliseconds"]
+    J -.-> A
 
     style A fill:#1A1F3A,color:#fff
     style B fill:#0891b2,color:#fff
     style C fill:#374151,color:#fff
-    style R fill:#dc2626,color:#fff
-    style D fill:#0891b2,color:#fff
-    style E fill:#0e7490,color:#fff
-    style F fill:#374151,color:#fff
-    style G fill:#1A1F3A,color:#fff
-    style S fill:#7c3aed,color:#fff
-    style A2 fill:#1A1F3A,color:#fff
+    style D fill:#dc2626,color:#fff
+    style E fill:#0891b2,color:#fff
+    style F fill:#0e7490,color:#fff
+    style G fill:#374151,color:#fff
+    style H fill:#1A1F3A,color:#fff
+    style I fill:#7c3aed,color:#fff
+    style J fill:#1A1F3A,color:#fff
 ```
 
 **Step 1: Instruction**
