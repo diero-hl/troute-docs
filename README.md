@@ -1,5 +1,7 @@
 # Introduction
 
+![](.gitbook/assets/banner.png)
+
 TROUTE is an autonomous payment routing protocol native to Tempo Chain.
 
 It was built to solve a problem that nobody talks about but everyone building with AI will eventually hit: AI agents cannot move money on their own.
