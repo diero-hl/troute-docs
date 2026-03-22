@@ -27,7 +27,8 @@ Add Tempo Chain manually to MetaMask or your preferred wallet:
 | Network Name | Tempo Chain |
 | RPC URL | https://rpc.tempo.xyz |
 | Chain ID | 4217 |
-| Currency Symbol | TEMPO |
+| Currency Symbol | USD |
+| Block Explorer | https://explore.tempo.xyz |
 
 ## Step 4: Buy $TROUTE
 
