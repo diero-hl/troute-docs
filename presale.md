@@ -14,7 +14,7 @@ TROUTE is launching via a fully public fair launch presale on Tempo Chain.
 | Accepted | USDC.e |
 | Network | Tempo Chain |
 | DEX Listing | Tempo Native DEX |
-| Contract Address | TBA |
+| Contract Address | 0x6301ebf664223c2108a883fd575b32c071e4b120 |
 | TGE | TBA |
 
 ## Fair Launch Structure
@@ -23,7 +23,7 @@ TROUTE is launching via a fully public fair launch presale on Tempo Chain.
 
 There are no tokens held back. There are no unlock events after launch. There are no vesting schedules for insiders because there are no insiders.
 
-What this means for buyers — every dollar raised goes directly into liquidity. The token launches with a fully backed liquidity pool funded entirely by the community.
+What this means for buyers: every dollar raised goes directly into liquidity. The token launches with a fully backed liquidity pool funded entirely by the community.
 
 ## How to Participate
 
@@ -37,7 +37,7 @@ What this means for buyers — every dollar raised goes directly into liquidity.
 
 The presale FDV is $50,000.
 
-For context — Tempo Chain raised $500,000,000 at a $5,000,000,000 valuation. Its ecosystem partners include Anthropic, OpenAI, Visa, and Mastercard. The chain was built by the team behind Stripe.
+For context: Tempo Chain raised $500,000,000 at a $5,000,000,000 valuation. Its ecosystem partners include Anthropic, OpenAI, Visa, and Mastercard. The chain was built by the team behind Stripe.
 
 TROUTE is the routing layer for AI agent payments on that chain. The presale FDV is $50,000.
 
