@@ -10,19 +10,19 @@ TROUTE handles everything from that point forward.
 
 ```mermaid
 flowchart TD
-    A["🤖 AI Agent"] -->|"Payment Instruction\ndestination · amount · asset · params"| B["TROUTE Routing Contract"]
-    B -->|Validate| C["Policy Registry\nTempo Chain\non-chain compliance check · milliseconds"]
+    A["🤖 AI Agent"] -->|"Payment Instruction<br/>destination · amount · asset · params"| B["TROUTE Routing Contract"]
+    B -->|Validate| C["Policy Registry — Tempo Chain<br/>on-chain compliance check · milliseconds"]
 
     C -->|"❌ REJECTED"| R["Revert + Error"]
     R -.->|"Error returned"| A
 
-    C -->|"✅ PASSED"| D["Routing Engine\nMPP"]
-    D -->|"Path Selection\ndestination · asset type · network conditions · fee optimization"| E["Optimal Route Selected"]
-    E --> F["Settlement\nTempo Chain\nInstant Finality · Sub-$0.001 gas · Stablecoin"]
+    C -->|"✅ PASSED"| D["Routing Engine — MPP"]
+    D -->|"Path Selection<br/>destination · asset type · network conditions · fee optimization"| E["Optimal Route Selected"]
+    E --> F["Settlement — Tempo Chain<br/>Instant Finality · Sub-$0.001 gas · Stablecoin"]
     F --> G["Settlement Confirmation"]
 
     G -->|"Fee captured"| S["$TROUTE Stakers"]
-    G -->|"Confirmation"| A2["AI Agent Continues Workflow\nno interruption · milliseconds total"]
+    G -->|"Confirmation"| A2["AI Agent Continues Workflow<br/>no interruption · milliseconds total"]
 
     style A fill:#1A1F3A,color:#fff
     style B fill:#0891b2,color:#fff
