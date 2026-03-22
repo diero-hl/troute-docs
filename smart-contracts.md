@@ -18,8 +18,8 @@ All TROUTE protocol contracts are deployed on Tempo Chain mainnet (Chain ID: 421
 | Network | Tempo Chain |
 | Chain ID | 4217 |
 | RPC URL | https://rpc.tempo.xyz |
-| Currency Symbol | TEMPO |
-| Block Explorer | TBA |
+| Currency Symbol | USD |
+| Block Explorer | https://explore.tempo.xyz |
 
 ## How to Verify
 
