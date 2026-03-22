@@ -2,7 +2,7 @@
 
 TROUTE is being built in phases. No dates are attached to these milestones because shipping takes priority over meeting arbitrary deadlines. Each phase begins when the previous one is complete.
 
-## Phase 1 — Foundation
+## Phase 1: Foundation
 
 - $TROUTE token deployed on Tempo Chain
 - Presale contract audited and live
@@ -10,7 +10,7 @@ TROUTE is being built in phases. No dates are attached to these milestones becau
 - Twitter community launched
 - Presale open to public
 
-## Phase 2 — Liquidity
+## Phase 2: Liquidity
 
 - Presale closes
 - TGE executed
@@ -18,7 +18,7 @@ TROUTE is being built in phases. No dates are attached to these milestones becau
 - $TROUTE trading live
 - Liquidity locked
 
-## Phase 3 — Protocol
+## Phase 3: Protocol
 
 - Routing engine v1 deployed
 - MPP integration live on mainnet
@@ -26,7 +26,7 @@ TROUTE is being built in phases. No dates are attached to these milestones becau
 - First routing partnerships announced
 - Developer documentation published
 
-## Phase 4 — Scale
+## Phase 4: Scale
 
 - Governance module live
 - Cross-chain routing expansion
