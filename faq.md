@@ -38,4 +38,4 @@ Your tokens are sent directly to your wallet at purchase. To see them, add the T
 
 **Is there a team allocation?**
 
-TROUTE is structured as a fair launch. The full 500,000,000 token supply is split between the presale (300M), liquidity pool (100M), and airdrop (100M) — all distributed directly to the community. No insider allocations.
+TROUTE is structured as a fair launch. The full 500,000,000 token supply is split between the presale (300M), liquidity pool (100M), and airdrop (100M), all distributed directly to the community. No insider allocations.
