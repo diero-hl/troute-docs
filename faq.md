@@ -55,6 +55,3 @@ Your tokens are sent directly to your wallet at purchase. To see them, add the T
 ---
 
 
-**Is there a team allocation?**
-
-No. There are zero team tokens, zero VC tokens, and zero insider allocations. 100% of the supply is distributed to the community.
