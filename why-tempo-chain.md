@@ -32,7 +32,7 @@ Tempo's Policy Registry allows protocols to enforce compliance rules on-chain wi
 
 **Ecosystem**
 
-Tempo's design partners include Anthropic, OpenAI, Visa, Mastercard, Revolut, DoorDash, Ramp, Shopify, Standard Chartered, and Nubank.
+Tempo's design partners include Anthropic, OpenAI, Visa, Mastercard, Revolut, DoorDash, Ramp, Shopify, Standard Chartered, Nubank, Stripe, and Klarna.
 
 These are not investors. These are organizations actively building on Tempo Chain right now. Every one of them will eventually need a routing layer for their AI agent payment flows.
 
