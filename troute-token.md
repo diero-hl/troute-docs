@@ -16,11 +16,11 @@ TROUTE is the native token of the TROUTE protocol.
 
 ## Token Distribution
 
-| Allocation | Amount |
-|---|---|
-| Presale (Mint) | 300,000,000 |
-| Liquidity Pool | 100,000,000 |
-| Airdrop | 100,000,000 |
+| Allocation | Amount | % |
+|---|---|---|
+| Presale (Mint) | 300,000,000 | 60% |
+| Liquidity Pool | 100,000,000 | 20% |
+| Airdrop | 100,000,000 | 20% |
 
 
 ## Token Utility
