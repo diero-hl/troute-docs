@@ -22,7 +22,6 @@ TROUTE is the native token of the TROUTE protocol.
 | Liquidity Pool | 100,000,000 |
 | Airdrop | 100,000,000 |
 
-No team allocation. No VC allocation. No insider tokens. No foundation reserve. Every token goes to the public at the same price.
 
 ## Token Utility
 
