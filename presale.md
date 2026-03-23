@@ -23,7 +23,7 @@ TROUTE is launching via a fully public fair launch presale on Tempo Chain.
 
 There are no tokens held back for insiders. There are no vesting schedules because there are no insiders.
 
-The remaining 200,000,000 $TROUTE are allocated to airdrop and community incentives — distributed to the community after TGE.
+The remaining 200,000,000 $TROUTE are allocated to the liquidity pool (100,000,000) and airdrop (100,000,000), distributed at and after TGE.
 
 What this means for buyers: every dollar raised goes directly into liquidity. The token launches with a fully backed liquidity pool funded entirely by the community.
 
