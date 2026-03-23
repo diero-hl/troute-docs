@@ -18,9 +18,9 @@ TROUTE is the native token of the TROUTE protocol.
 
 | Allocation | Amount |
 |---|---|
-| Presale | 300,000,000 |
+| Presale (Mint) | 300,000,000 |
+| Liquidity Pool | 100,000,000 |
 | Airdrop | 100,000,000 |
-| Community Incentives | 100,000,000 |
 
 There is no team allocation. There is no VC allocation. There are no insider tokens. There is no foundation reserve.
 
