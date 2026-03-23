@@ -23,6 +23,6 @@ All TROUTE protocol contracts are deployed on Tempo Chain mainnet (Chain ID: 421
 
 ## How to Verify
 
-All contracts can be verified directly on-chain using the RPC endpoint above. The presale contract holds no funds — all USDC.e paid by buyers is routed directly to the treasury wallet at the time of purchase.
+All contracts can be verified directly on-chain using the RPC endpoint above. The presale contract holds no funds. All USDC.e paid by buyers is routed directly to the treasury wallet at the time of purchase.
 
 You can verify this yourself by reading the `treasury` variable on the presale contract.
