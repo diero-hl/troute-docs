@@ -54,11 +54,6 @@ Your tokens are sent directly to your wallet at purchase. To see them, add the T
 
 ---
 
-**Will $TROUTE be listed on exchanges?**
-
-$TROUTE will be listed on Tempo Chain's native DEX at TGE. CEX listings will be pursued after launch. No specific listings can be confirmed at this time.
-
----
 
 **Is there a team allocation?**
 
