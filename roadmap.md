@@ -23,7 +23,7 @@
   Presale closes. TGE happens. The USDC.e raised goes directly into seeding the LP on Enshrined DEX. $TROUTE starts trading. Liquidity locked.
 
   - Presale closes and funds finalized
-  - TGE executed, $TROUTE distributed to presale buyers
+  - TGE executed
   - Liquidity pool seeded on Enshrined DEX
   - $TROUTE trading live
   - Liquidity locked
