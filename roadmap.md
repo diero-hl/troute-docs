@@ -18,7 +18,7 @@
   - TROUTE Explorer live at explorer.trouteprotocol.xyz
   - Token Launchpad API live
   - Developer docs published (skills, billing, offramp, launchpad, integration)
-  - OpenAI function schema live -- agents can call TROUTE as a GPT Action
+  - OpenAI function schema live, agents can call TROUTE as a GPT Action
 
   ## Phase 3: Liquidity
 
@@ -30,12 +30,12 @@
 
   ## Phase 4: Launchpad
 
-  - Human launch UI live -- connect wallet, fill form, launch token
-  - AI agent launch -- POST /api/launch, no wallet needed
-  - Fee structure live: $3 launch fee + 1% per trade
-  - Fee split: 80% creator / 10% stakers / 10% treasury
-  - Bonding curve graduation at $15,000 market cap
-  - Auto-liquidity on Enshrined DEX at graduation
+  - Humans launch tokens by connecting their wallet and filling a simple form
+  - AI agents launch tokens with a single API call, no wallet required
+  - Launch fee: $3 pathUSD per token
+  - Trade fee: 1% per buy and sell, split 80% creator / 10% stakers / 10% treasury
+  - Bonding curve graduates at $15,000 market cap
+  - Auto-liquidity deployed on DEX at graduation
 
   ## Phase 5: Protocol Growth
 
@@ -47,8 +47,8 @@
 
   ## Phase 6: Scale
 
-  - Governance module live -- stakers vote on fee parameters
-  - Referral system -- share link, earn % of fees
+  - Governance module live, stakers vote on fee parameters
+  - Referral system, share link and earn a percentage of fees
   - $TROUTE fee discounts for holders
   - Cross-chain routing expansion
   - Enterprise routing API
