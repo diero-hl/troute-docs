@@ -2,77 +2,56 @@
 
   No fixed dates. Each phase ships when it is ready.
 
-  ---
-
   ## Phase 1: Foundation (Complete)
-
-  The foundation phase covered everything needed to bring TROUTE to life as a real, deployable protocol on Tempo Chain. The $TROUTE token was deployed and the presale contract was audited and made publicly accessible. Community channels were launched on Twitter and Telegram, and the initial GitBook documentation was published to give early supporters a clear picture of what TROUTE is building.
 
   - $TROUTE token deployed on Tempo Chain
   - Presale contract audited and open to the public
   - Twitter and Telegram communities launched
   - GitBook documentation published
 
-  ---
-
   ## Phase 2: Developer Infrastructure (Complete)
 
-  The developer infrastructure phase focused on making TROUTE usable by real AI agents today, without any wallet setup or private key management. The payment routing contract was deployed on Tempo Chain mainnet with full MPP integration, settling payments in approximately 500 milliseconds at sub-$0.001 gas fees. A public REST API was launched so any agent can route USDC.e payments with a single HTTP request. The TROUTE Explorer went live to give developers and users a real-time view of all routed payments. The Token Launchpad API was deployed, allowing agents to launch TIP-20 tokens on Tempo Chain autonomously. A full suite of developer documentation was published covering payment routing, billing audit trails, off-ramp flows, launchpad integration, and a complete OpenAI function schema so AI agents can load TROUTE as a GPT Action.
-
-  - Routing engine v1 deployed on Tempo Chain with MPP integration
+  - Routing engine v1 deployed on Tempo Chain with full MPP integration
   - REST API live at api.trouteprotocol.xyz
   - TROUTE Explorer live at explorer.trouteprotocol.xyz
   - Token Launchpad API live on mainnet
-  - Full developer documentation published (skills, billing, offramp, launchpad, integration guides)
-  - OpenAI function schema live so AI agents can call TROUTE as a GPT Action
-
-  ---
+  - Developer docs published: payment routing, billing, offramp, launchpad, integration
+  - OpenAI function schema live so any agent can call TROUTE as a GPT Action
 
   ## Phase 3: Liquidity
 
-  Once the presale closes, TROUTE moves into its liquidity phase. The TGE (Token Generation Event) will be executed and the USDC.e raised from the presale will be used to seed a liquidity pool on Tempo Native DEX. This makes $TROUTE freely tradeable and ensures there is deep enough liquidity for the token to function as the core utility asset of the protocol. Liquidity will be locked to give the community confidence in the long-term stability of the pool.
+  Presale closes. TGE happens. The USDC.e raised goes directly into seeding the LP on Tempo Native DEX. $TROUTE starts trading. Liquidity locked.
 
-  - Presale closes and funds are finalized
-  - TGE executed and $TROUTE distributed to presale participants
-  - Liquidity pool seeded on Tempo Native DEX with presale funds
-  - $TROUTE trading goes live
-  - Liquidity locked for a fixed period
-
-  ---
+  - Presale closes and funds finalized
+  - TGE executed, $TROUTE distributed to presale buyers
+  - Liquidity pool seeded on Tempo Native DEX
+  - $TROUTE trading live
+  - Liquidity locked
 
   ## Phase 4: Launchpad
 
-  The launchpad phase opens token creation to everyone, both humans and AI agents. Humans connect their wallet, fill in a simple form with the token name, symbol, description, and image, and launch directly on Tempo Chain. AI agents can do the same with a single POST request and no wallet required. The fee structure is transparent: a flat $3 pathUSD launch fee per token, plus 1% on every buy and sell. That 1% is split with 80% going to the token creator as passive income, 10% going to $TROUTE stakers, and 10% going to the TROUTE treasury. Tokens launch on a bonding curve where the price rises with each buy. When the market cap reaches $20,000, the token graduates automatically and permanent liquidity is deployed on Enshrined DEX.
+  Anyone launches a token on Tempo Chain. Humans connect a wallet and fill a form. AI agents call POST /api/launch. Either way the token is live in seconds on a bonding curve. $3 flat fee to launch. 1% on every trade, split 80% to the creator, 10% to stakers, 10% to treasury. At $20,000 market cap the token graduates automatically to Enshrined DEX with permanent liquidity.
 
-  - Human launch flow: connect wallet, fill form, launch token on Tempo Chain
-  - AI agent launch flow: single POST request to /api/launch, no wallet required
-  - Flat $3 pathUSD launch fee per token
-  - 1% trade fee on every buy and sell
-  - Fee split: 80% to the token creator, 10% to $TROUTE stakers, 10% to the treasury
+  - Human launch: connect wallet, fill form, token live on Tempo Chain
+  - AI agent launch: POST /api/launch, no wallet needed
+  - $3 pathUSD flat launch fee
+  - 1% trade fee split: 80% creator, 10% stakers, 10% treasury
   - Bonding curve graduates at $20,000 market cap
-  - Auto-liquidity deployed on Enshrined DEX at graduation
-
-  ---
+  - Auto-liquidity on Enshrined DEX at graduation
 
   ## Phase 5: Protocol Growth
 
-  The protocol growth phase is about turning TROUTE into a self-sustaining ecosystem. A staking contract will be deployed so $TROUTE holders can lock their tokens and earn 10% of all platform trade fees generated by the launchpad. A developer SDK will be released in Python and TypeScript to make integration even simpler for teams building on top of TROUTE. The focus is on growing the number of active AI agent integrations and demonstrating real-world payment volume on Tempo Chain.
-
-  - Staking contract deployed so $TROUTE holders earn 10% of all platform trade fees
+  - Staking contract live, $TROUTE holders earn from all protocol fees
   - TROUTE SDK released for Python and TypeScript
-  - First live AI agent integrations announced
-  - Target of 10 or more active AI agents routing payments via TROUTE
-
-  ---
+  - First live AI agent integrations
+  - 10+ active AI agents routing payments via TROUTE
 
   ## Phase 6: Scale
 
-  The scale phase focuses on governance, incentives, and expanding TROUTE beyond its initial integrations. A governance module will be deployed giving $TROUTE stakers the ability to vote on fee parameters and protocol upgrades. A referral system will let creators and agents earn a share of fees from anyone they bring to the platform. Fee discounts will be introduced for $TROUTE holders to drive continued demand for the token. Cross-chain routing will expand TROUTE's reach beyond Tempo Chain and an enterprise API tier will be made available for teams with high-volume routing needs.
-
-  - Governance module live, stakers vote on protocol fee parameters and upgrades
-  - Referral system live, share a link and earn a percentage of fees from referred trades
+  - Governance live, stakers vote on fees and upgrades
+  - Referral system live, earn from fees you bring in
   - $TROUTE fee discounts for holders
-  - Cross-chain routing expansion beyond Tempo Chain
-  - Enterprise routing API for high-volume integrations
-  - Target of 100 or more active AI agents on TROUTE
+  - Cross-chain routing beyond Tempo Chain
+  - Enterprise API tier
+  - 100+ active AI agents on TROUTE
   
