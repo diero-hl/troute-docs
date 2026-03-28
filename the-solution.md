@@ -1,59 +1,62 @@
 # The Solution
 
-TROUTE replaces the human in the payment loop with a protocol.
+  TROUTE replaces the human in the payment loop with a protocol.
 
-When an AI agent needs to make a payment, it does not send a request to a human for approval. It sends a payment instruction to TROUTE.
+  When an AI agent needs to make a payment, it does not send a request to a human for approval. It sends a payment instruction to TROUTE. TROUTE handles everything from that point forward: validation, routing, and settlement, all on-chain, all in milliseconds.
 
-TROUTE handles everything from that point forward.
+  ## How It Works
 
-## How It Works
+  ```
+  AI Agent
+    |
+    | Payment instruction (destination, amount, asset, params)
+    v
+  TROUTE Routing Contract
+    |
+    | Validate against on-chain policy rules
+    v
+  Policy Registry (Tempo Chain)
+    |-- REJECTED --> Error returned to agent immediately
+    |
+    | PASSED
+    v
+  Routing Engine (MPP)
+    |
+    | Select optimal path based on destination, asset type,
+    | network conditions, and fee optimization
+    v
+  Settlement (Tempo Chain)
+    |
+    | Instant finality. Sub-$0.001 gas. Stablecoin settlement.
+    v
+  Confirmation returned to AI Agent
+    |
+    | Fee captured and distributed to $TROUTE stakers
+    v
+  Agent continues workflow without interruption
+  ```
 
-```mermaid
-flowchart TD
-    A["🤖 AI Agent"] -->|"Payment Instruction<br/>destination · amount · asset · params"| B["TROUTE Routing Contract"]
-    B -->|Validate| C["Policy Registry<br/>Tempo Chain<br/>on-chain compliance · milliseconds"]
-    C -->|"❌ REJECTED"| D["Revert + Error"]
-    D -.->|"Error returned"| A
-    C -->|"✅ PASSED"| E["Routing Engine / MPP"]
-    E -->|"Path Selection<br/>destination · asset type · network conditions · fee optimization"| F["Optimal Route Selected"]
-    F --> G["Settlement / Tempo Chain<br/>Instant Finality · Sub-$0.001 gas · Stablecoin"]
-    G --> H["Settlement Confirmation"]
-    H -->|"Fee captured"| I["$TROUTE Stakers"]
-    H -->|"Confirmation"| J["AI Agent Continues Workflow<br/>no interruption · milliseconds"]
-    J -.-> A
+  ## Step by Step
 
-    style A fill:#1A1F3A,color:#fff
-    style B fill:#0891b2,color:#fff
-    style C fill:#374151,color:#fff
-    style D fill:#dc2626,color:#fff
-    style E fill:#0891b2,color:#fff
-    style F fill:#0e7490,color:#fff
-    style G fill:#374151,color:#fff
-    style H fill:#1A1F3A,color:#fff
-    style I fill:#7c3aed,color:#fff
-    style J fill:#1A1F3A,color:#fff
-```
+  **Step 1: Instruction**
 
-**Step 1: Instruction**
+  The AI agent submits a payment instruction to the TROUTE routing contract. The instruction contains the destination wallet, the amount, the asset, and any routing parameters specific to that transaction. This is a single HTTP call. No wallet setup required on the agent side.
 
-The AI agent submits a payment instruction to the TROUTE routing contract. The instruction contains the destination, the amount, the asset, and any routing parameters specific to that transaction.
+  **Step 2: Validation**
 
-**Step 2: Validation**
+  TROUTE validates the instruction against the protocol's compliance rules via Tempo Chain's built-in Policy Registry. This happens on-chain in milliseconds. If the check fails, the transaction is rejected and a clear error is returned to the agent immediately. No funds move.
 
-TROUTE validates the instruction against the protocol's compliance rules via Tempo Chain's built-in Policy Registry. This happens on-chain in milliseconds. If the check fails, the transaction is rejected and an error is returned to the agent immediately.
+  **Step 3: Routing**
 
-**Step 3: Routing**
+  TROUTE routes the payment through the optimal path on Tempo Chain using the Machine Payments Protocol (MPP). The routing engine selects the most efficient settlement path based on the destination, asset type, current network conditions, and fee optimization. The agent does not need to know any of this. TROUTE handles it automatically.
 
-TROUTE routes the payment through the optimal path on Tempo Chain using MPP. The routing engine selects the most efficient settlement path based on destination, asset type, network conditions, and fee optimization.
+  **Step 4: Settlement**
 
-**Step 4: Settlement**
+  The payment settles on Tempo Chain with instant finality. Gas fees are sub-$0.001, denominated in stablecoins, so there is no gas token to manage and no fee volatility. The recipient receives the funds immediately. There is no waiting window, no confirmation countdown, and no uncertainty about whether the payment went through.
 
-The payment settles on Tempo Chain with instant finality. Gas fees are sub-$0.001, paid in stablecoins. No waiting. No confirmation delays.
+  **Step 5: Confirmation**
 
-**Step 5: Confirmation**
+  The AI agent receives a settlement confirmation containing the transaction hash, the net amount delivered, and a link to the on-chain explorer. The agent stores this as proof of payment and continues its workflow without any interruption. A portion of the routing fee is captured and distributed proportionally to all active $TROUTE stakers.
 
-The AI agent receives a settlement confirmation and continues its workflow without interruption. A portion of the fee is captured and distributed to $TROUTE stakers.
-
-The entire process happens in milliseconds. No human touches the transaction at any point.
-
-This is what autonomous payments look like at machine speed.
+  The entire process, from instruction to confirmation, happens in approximately 500 milliseconds. No human touches the transaction at any point. This is what autonomous payments look like at machine speed.
+  
