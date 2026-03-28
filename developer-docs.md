@@ -1,65 +1,48 @@
 # Developer Documentation
 
-  TROUTE is designed for zero-friction integration by AI agents. No SDK, no API key, no wallet required. Every integration is a standard HTTP call. The developer docs below cover everything from routing your first payment to launching tokens and converting earnings to fiat.
+  No SDK. No API key. No wallet setup. Every TROUTE integration is a standard HTTP call. The docs below cover everything you need.
 
-  All docs are also served as plain-text files so AI agents can fetch and parse them directly at runtime.
+  All files are served as plain text so agents can fetch and load them directly at runtime.
 
-  ---
+  ## Skills File
 
-  ## Skills File (Full API Reference)
+  The full TROUTE API reference. Load this into your agent's context or as a GPT Action and your agent knows every endpoint, parameter, and response format.
 
-  The master reference for all TROUTE capabilities. Load this into your agent's system prompt or GPT Action to give your agent complete knowledge of every TROUTE endpoint, parameter, and example.
+  Live: https://www.trouteprotocol.xyz/skills.md
 
-  Live URL: https://www.trouteprotocol.xyz/skills.md
+  OpenAPI spec for GPT Actions: https://www.trouteprotocol.xyz/openapi.json
 
-  OpenAPI spec (for GPT Actions): https://www.trouteprotocol.xyz/openapi.json
+  ## Integration Guide
 
-  ---
+  How to integrate TROUTE into any agent framework. OpenAI function calling, LangChain, CrewAI, Vercel AI SDK, and a pattern for wrapping any API call with a payment. Full examples in Python and TypeScript.
 
-  ## Payment Routing Integration
+  Live: https://www.trouteprotocol.xyz/integration.md
 
-  How to integrate TROUTE into any agent framework. Covers the full integration path from loading the skills file to routing your first payment. Includes examples for OpenAI function calling, LangChain, CrewAI, Vercel AI SDK, and a pattern for wrapping any API call with a payment.
+  ## AI API Billing
 
-  Live URL: https://www.trouteprotocol.xyz/integration.md
+  How to log every AI API call on-chain. Every call to OpenAI, Anthropic, Fal.ai, Modal, or Dune gets a txHash stored permanently on Tempo Chain. Your agent's entire spending history is auditable on-chain, no spreadsheet needed.
 
-  ---
-
-  ## AI API Billing (On-Chain Audit Trail)
-
-  How to use TROUTE to log every AI API call your agent makes on-chain. Each call to OpenAI, Anthropic, Fal.ai, Modal, or Dune generates a txHash stored permanently on Tempo Chain. Your agent's entire API spending history becomes publicly auditable and immutable with no spreadsheet required.
-
-  Live URL: https://www.trouteprotocol.xyz/billing.md
-
-  ---
+  Live: https://www.trouteprotocol.xyz/billing.md
 
   ## Token Launchpad API
 
-  How to deploy TIP-20 tokens on Tempo Chain via TROUTE. Any AI agent can call POST /api/launch with a name, symbol, description, and image URL and have a token live on a bonding curve in seconds. No wallet, no private key, no manual chain interaction. Tokens graduate to Enshrined DEX automatically at a $20,000 market cap.
+  How to deploy TIP-20 tokens on Tempo Chain. Call POST /api/launch with a name, symbol, description, and image URL. Token is live on a bonding curve in seconds. No wallet. No private key. Graduates automatically to Enshrined DEX at $20,000 market cap.
 
-  Live URL: https://www.trouteprotocol.xyz/launchpad.md
+  Live: https://www.trouteprotocol.xyz/launchpad.md
 
-  ---
+  ## Off-Ramp Guide
 
-  ## Off-Ramp Guide (USDC.e to Fiat)
+  How to convert USDC.e earnings on Tempo Chain to fiat. Covers balance checking, bridging via relay.link, and off-ramp through Alchemy Pay and MoonPay. Includes Southeast Asia options: GCash, Maya, GrabPay.
 
-  How an AI agent converts USDC.e earnings on Tempo Chain to fiat currency. Covers checking balance on-chain, bridging USDC.e to Ethereum via relay.link, and generating off-ramp URLs for Alchemy Pay and MoonPay including Southeast Asia methods (GCash, Maya, GrabPay).
-
-  Live URL: https://www.trouteprotocol.xyz/offramp.md
-
-  ---
+  Live: https://www.trouteprotocol.xyz/offramp.md
 
   ## Quick Start
 
-  Read the skills file and make your first payment in under 5 minutes:
-
   ```bash
-  # 1. Fetch the full skills file
-  curl https://www.trouteprotocol.xyz/skills.md
-
-  # 2. Check the relayer is funded
+  # Check the relayer is funded
   curl https://api.trouteprotocol.xyz/api/stats
 
-  # 3. Route your first payment
+  # Route your first payment
   curl -X POST https://api.trouteprotocol.xyz/api/route \
     -H "Content-Type: application/json" \
     -d '{
@@ -69,7 +52,5 @@
     }'
   ```
 
-  If you get back a txHash, your integration is working.
-
-  View it live: https://explorer.trouteprotocol.xyz
+  If you get a txHash back, you are integrated. View it at explorer.trouteprotocol.xyz.
   
