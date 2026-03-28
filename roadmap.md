@@ -34,8 +34,8 @@
   - AI agents launch tokens with a single API call, no wallet required
   - Launch fee: $3 pathUSD per token
   - Trade fee: 1% per buy and sell, split 80% creator / 10% stakers / 10% treasury
-  - Bonding curve graduates at $15,000 market cap
-  - Auto-liquidity deployed on DEX at graduation
+  - Bonding curve graduates at $20,000 market cap
+  - Auto-liquidity deployed on Enshrined DEX at graduation
 
   ## Phase 5: Protocol Growth
 
