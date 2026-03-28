@@ -13,13 +13,13 @@ TROUTE is launching via a fully public fair launch presale on Tempo Chain.
 | Minimum Purchase | $0.50 USDC.e |
 | Accepted | USDC.e |
 | Network | Tempo Chain |
-| DEX Listing | Tempo Native DEX |
+| DEX Listing | Enshrined DEX |
 | Contract Address | 0x6301ebf664223c2108a883fd575b32c071e4b120 |
 | TGE | TBA |
 
 ## Fair Launch Structure
 
-300,000,000 $TROUTE are available in the presale. The USDC.e raised from the presale is used to seed the liquidity pool on Tempo's native DEX at TGE.
+300,000,000 $TROUTE are available in the presale. The USDC.e raised from the presale is used to seed the liquidity pool on Enshrined DEX at TGE.
 
 There are no tokens held back for insiders. There are no vesting schedules because there are no insiders.
 
