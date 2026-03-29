@@ -26,7 +26,7 @@ See the [Security](security.md) page for full details on the contract and securi
 
 **What happens if the hard cap is not reached?**
 
-The presale runs until the hard cap of $30,000 USDC.e is reached or the presale period ends. Any funds raised will be used to seed the liquidity pool at TGE regardless of the final amount raised.
+The presale runs until the hard cap of $15,000 USDC.e is reached or the presale period ends. Any funds raised will be used to seed the liquidity pool at TGE regardless of the final amount raised.
 
 **Can I buy from any country?**
 
@@ -38,4 +38,4 @@ Your tokens are sent directly to your wallet at purchase. To see them, add the T
 
 **Is there a team allocation?**
 
-TROUTE is structured as a fair launch. The full 500,000,000 token supply is split between the presale (300M), liquidity pool (100M), and airdrop (100M), all distributed directly to the community. No insider allocations.
+TROUTE is structured as a fair launch. The circulating supply is 250,000,000 — split between the presale (150M), liquidity pool (50M), and airdrop (50M), all distributed directly to the community. 250M tokens are burned permanently at presale close. No insider allocations.
